@@ -15,15 +15,15 @@
 }
 
 .ct-logo {
-
+    padding-left: 10px;
 }
 
 .ct-navbar {
-
+    font-weight: bold;
 }
 
 .ct-navbar ul {
-
+    display: flex;
 }
 
 .ct-navbar ul li {
@@ -36,9 +36,9 @@
 }
 
 .ct-navbar ul li a:hover {
-
+    color: #573f05;
 }
 
 .ct-login {
-
+    font-weight: 400;
 }
