@@ -77,3 +77,8 @@
     background: darkgoldenrod;
     color: #573f05;
 }
+
+.sc-um-principal {
+    height: 100vh;
+    display: flex;
+}
