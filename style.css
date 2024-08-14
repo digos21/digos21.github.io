@@ -16,7 +16,7 @@
 }
 
 .ct-logo {
-    padding: 0 20px 0 0;
+    padding: 0 30px 0 0;
 }
 
 .ct-navbar {
@@ -29,7 +29,7 @@
 
 .ct-navbar ul li {
     list-style: none;
-    gap: 10px;
+    gap: 50px;
 }
 
 .ct-navbar ul li a {
@@ -47,6 +47,7 @@
 
 .ct-login button {
     border: none;
+    padding: 10px;
     background: #573f05;
     color: white;
 }
