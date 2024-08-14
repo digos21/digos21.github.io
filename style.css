@@ -8,6 +8,8 @@
 
 }
 
+/*HEADER - inicio da página com Menu Nav Bar*/
+
 .container {
     display: flex;
     justify-content: space-around;
@@ -44,7 +46,7 @@
 
 .ct-navbar ul li a {
     text-decoration: none;
-    color: darkgoldenrod;
+    color: #b8860b;
     /*background: black;*/
     font-size: 1rem;
     padding: 4px 10px 3px 10px;
@@ -78,44 +80,55 @@
     color: #573f05;
 }
 
+/*SECTION PRINCIPAL - HEADLINE */
+
 .sc-um-principal {
     height: 100vh;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background: silver;
 }
 
 .sc-um-principal header h1 {
-    font-weight: 300;
+    font-weight: 500;
+    font-size: 1.6rem;
     color:#573f05;
-    margin-left: 30px;
+    margin: 0 0 15px 0;
 }
 
 .sc-um-principal header h2 {
-    font-weight: 200;
+    font-size: 1.2rem;
+    font-weight: 300;
     color:#573f05;
-    margin-left: 30px;
+    margin: 0 0 15px 0;
     
 }
 
 .sc-um-principal header p {
+    font-size: 0.8rem;
     text-align: justify;
-    font-weight: bold;
+    /*font-weight: bold;*/
     color:#573f05;
-    margin-left: 30px;
+    margin-bottom: 30px;
+  width: 545px;
     
 }
 
 
 .sc-um-principal header .btn-cta {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     border: none;
     padding: 8px;
     background: #573f05;
     color: white;
     border-radius: 10px;
+}
+
+.sc-um-principal header .btn-cta:hover {
+    background: #b8860b;
+    color: black;
 }
 
 
