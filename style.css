@@ -7,3 +7,38 @@
 
 }
 
+.container {
+    display: flex;
+    background-color: antiquewhite;
+    height: 30px;
+    width: 100vw;
+}
+
+.ct-logo {
+
+}
+
+.ct-navbar {
+
+}
+
+.ct-navbar ul {
+
+}
+
+.ct-navbar ul li {
+    list-style: none;
+}
+
+.ct-navbar ul li a {
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+
+.ct-navbar ul li a:hover {
+
+}
+
+.ct-login {
+
+}
