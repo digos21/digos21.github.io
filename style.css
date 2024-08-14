@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins';
 
 }
@@ -15,7 +16,7 @@
 }
 
 .ct-logo {
-    padding-left: 10px;
+    padding: 0 20px 0 0;
 }
 
 .ct-navbar {
@@ -28,6 +29,7 @@
 
 .ct-navbar ul li {
     list-style: none;
+    gap: 10px;
 }
 
 .ct-navbar ul li a {
@@ -41,4 +43,16 @@
 
 .ct-login {
     font-weight: 400;
+}
+
+.ct-login button {
+    border: none;
+    background: #573f05;
+    color: white;
+}
+
+.ct-login button:hover {
+
+    background: darkgoldenrod;
+    color: #573f05;
 }
