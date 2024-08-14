@@ -14,7 +14,7 @@
     align-items: center;
     background-color: antiquewhite;
     height: 30px;
-    
+
 }
 
 .ct-logo {
@@ -28,7 +28,7 @@
 .ct-navbar {
     /*font-weight: bold;*/
     /*margin-left: 50px;*/
-  
+
 }
 
 .ct-navbar ul {
@@ -47,7 +47,7 @@
     color: darkgoldenrod;
     /*background: black;*/
     font-size: 1rem;
-  padding: 4px 10px 3px 10px;
+    padding: 4px 10px 3px 10px;
 
 }
 
@@ -63,13 +63,13 @@
 
 .ct-login button {
 
-  font-size: 1rem;
+    font-size: 1rem;
     border: none;
     /*padding: 3px 10px 3px 10px; padrão sem border-radius*/
-  padding: 1px 10px 0 10px; 
+    padding: 1px 10px 0 10px;
     background: #573f05;
     color: white;
-  border-radius:10px;
+    border-radius: 10px;
 }
 
 .ct-login button:hover {
@@ -84,15 +84,17 @@
     background: silver;
 }
 
-.sc-dois-card{
+.sc-dois-card {
     height: 100vh;
-background: orange;
+    background: orange;
 }
-.sc-tres-elemento1{
+
+.sc-tres-elemento1 {
     height: 100vh;
-background: silver;
+    background: silver;
 }
-.sc-quatro-carrousel{
+
+.sc-quatro-carrousel {
     height: 100vh;
-background: darkgoldenrod;
+    background: darkgoldenrod;
 }
