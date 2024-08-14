@@ -155,4 +155,25 @@
     background: darkgoldenrod;
 }
 
+.sc-cinco-elementos2 {
+    height: 100vh;
+    background: #473810;
+} 
+.sc-sexto-formularios {
+    height: 100vh;
+    background: darkgoldenrod;
+}
+
+footer {
+    background: #ecbb3d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .ft-rodape-item {
+    height: 300px;
+}
+
 /* MÉDIA QUERIES - AJUSTAR PARA ABAIXO DE 650 E CELULAR MOBILE FIRST */
