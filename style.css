@@ -81,4 +81,18 @@
 .sc-um-principal {
     height: 100vh;
     display: flex;
+    background: silver;
+}
+
+.sc-dois-card{
+    height: 100vh;
+background: orange;
+}
+.sc-tres-elemento1{
+    height: 100vh;
+background: silver;
+}
+.sc-quatro-carrousel{
+    height: 100vh;
+background: darkgoldenrod;
 }
