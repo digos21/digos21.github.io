@@ -78,6 +78,7 @@
 
     background: darkgoldenrod;
     color: #573f05;
+    cursor: pointer;
 }
 
 /*SECTION PRINCIPAL - HEADLINE */
@@ -129,6 +130,7 @@
 .sc-um-principal header .btn-cta:hover {
     background: #b8860b;
     color: black;
+    cursor: pointer;
 }
 
 
