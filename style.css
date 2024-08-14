@@ -81,7 +81,48 @@
 .sc-um-principal {
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: silver;
+}
+
+.sc-um-principal header h1 {
+    font-weight: 300;
+    color:#573f05;
+    margin-left: 30px;
+}
+
+.sc-um-principal header h2 {
+    font-weight: 200;
+    color:#573f05;
+    margin-left: 30px;
+    
+}
+
+.sc-um-principal header p {
+    text-align: justify;
+    font-weight: bold;
+    color:#573f05;
+    margin-left: 30px;
+    
+}
+
+
+.sc-um-principal header .btn-cta {
+    font-size: 0.9rem;
+    border: none;
+    padding: 8px;
+    background: #573f05;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.img-headline {
+    width: 350px;
+    height: 350px;
+    background-color: black;
 }
 
 .sc-dois-card {
