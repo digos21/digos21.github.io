@@ -10,9 +10,11 @@
 
 .container {
     display: flex;
+    justify-content: center;
     background-color: antiquewhite;
+    padding: 15px;
     height: 30px;
-    width: 100vw;
+    width: 100%;
 }
 
 .ct-logo {
@@ -25,16 +27,18 @@
 
 .ct-navbar ul {
     display: flex;
+    margin-left: 30px;
 }
 
 .ct-navbar ul li {
     list-style: none;
-    margin-left: 30px;
+    margin: 0 0 0 30px;
 }
 
 .ct-navbar ul li a {
     text-decoration: none;
     color: darkgoldenrod;
+
 }
 
 .ct-navbar ul li a:hover {
