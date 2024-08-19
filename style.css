@@ -10,7 +10,7 @@
 
 /*HEADER - inicio da página com Menu Nav Bar*/
 
-.container {
+.menu-nav-bar {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -19,11 +19,11 @@
 
 }
 
-.ct-logo {
+.logo {
     padding: 0 10px 0 0;
 }
 
-.ct-logo p {
+.logo p {
     font-size: 1rem;
 }
 
@@ -33,18 +33,18 @@
 
 }
 
-.ct-navbar ul {
+.navbar ul {
 
     display: flex;
     /*margin-left: 30px;*/
 }
 
-.ct-navbar ul li {
+.navbar ul li {
     list-style: none;
     /*margin: 0 30px 0 30px;*/
 }
 
-.ct-navbar ul li a {
+.navbar ul li a {
     text-decoration: none;
     color: #b8860b;
     /*background: black;*/
@@ -53,17 +53,17 @@
 
 }
 
-.ct-navbar ul li a:hover {
+.navbar ul li a:hover {
 
     color: white;
     background: #573f05;
 }
 
-.ct-login {
+.login {
     /*font-weight: 400;*/
 }
 
-.ct-login button {
+.login button {
 
     font-size: 1rem;
     border: none;
@@ -74,7 +74,7 @@
     border-radius: 10px;
 }
 
-.ct-login button:hover {
+.login button:hover {
 
     background: darkgoldenrod;
     color: #573f05;
@@ -83,7 +83,7 @@
 
 /*SECTION PRINCIPAL - HEADLINE */
 
-.sc-um-principal {
+.home {
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -92,14 +92,14 @@
     background: silver;
 }
 
-.sc-um-principal header h1 {
+.home header h1 {
     font-weight: 500;
     font-size: 1.6rem;
     color:#573f05;
     margin: 0 0 15px 0;
 }
 
-.sc-um-principal header h2 {
+.home header h2 {
     font-size: 1.2rem;
     font-weight: 300;
     color:#573f05;
@@ -107,7 +107,7 @@
     
 }
 
-.sc-um-principal header p {
+.home header p {
     font-size: 0.8rem;
     text-align: justify;
     /*font-weight: bold;*/
@@ -118,7 +118,7 @@
 }
 
 
-.sc-um-principal header .btn-cta {
+.home header .btn-cta {
     font-size: 0.8rem;
     border: none;
     padding: 8px;
@@ -127,39 +127,41 @@
     border-radius: 10px;
 }
 
-.sc-um-principal header .btn-cta:hover {
+.home header .btn-cta:hover {
     background: #b8860b;
     color: black;
     cursor: pointer;
 }
 
-
 .img-headline {
-    width: 350px;
+    width: 600px;
     height: 350px;
     background-color: black;
 }
+.img-headline img {
+    width: 100%;
+}
 
-.sc-dois-card {
+.about {
     height: 100vh;
     background: orange;
 }
 
-.sc-tres-elemento1 {
+.services {
     height: 100vh;
     background: silver;
 }
 
-.sc-quatro-carrousel {
+.portfolio {
     height: 100vh;
     background: darkgoldenrod;
 }
 
-.sc-cinco-elementos2 {
+.galery {
     height: 100vh;
     background: #473810;
 } 
-.sc-sexto-formularios {
+.contact {
     height: 100vh;
     background: darkgoldenrod;
 }
