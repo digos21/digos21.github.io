@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-* {
+*, h1, h2 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,8 +14,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: orange;
     height: 30px;
+    width: 100%;
 
 }
 
@@ -46,7 +47,7 @@
 
 .navbar ul li a {
     text-decoration: none;
-    color: #b8860b;
+    color: #000;
     /*background: black;*/
     font-size: 1rem;
     padding: 4px 10px 3px 10px;
@@ -87,33 +88,51 @@
     height: 100vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    background: silver;
+    background: white;
+    gap: 50px;
+}
+
+.home header {
+    width: 30rem;
+    /*background: orange;*/
+
 }
 
 .home header h1 {
-    font-weight: 500;
-    font-size: 1.6rem;
-    color:#573f05;
-    margin: 0 0 15px 0;
+    font-weight: bold;
+    font-size: 3.4rem;
+    letter-spacing: 0.026rem;
+    color:orange;
+    /*margin: 0 0 15px 0;*/
 }
 
+
+
 .home header h2 {
-    font-size: 1.2rem;
-    font-weight: 300;
-    color:#573f05;
+    /*letter-spacing: 0.03rem;*/
+    font-size: 2.08rem;
+    font-weight: bold;
+    color:#42331b;
     margin: 0 0 15px 0;
     
+}
+
+.home header span {
+    font-size: 1.37rem;
+    color:#42331b;
 }
 
 .home header p {
     font-size: 0.8rem;
     text-align: justify;
     /*font-weight: bold;*/
-    color:#573f05;
-    margin-bottom: 30px;
-  width: 545px;
+    color:#42331b;
+    margin: 10px 0 30px 0;
+    padding-right: 5px;
+
     
 }
 
@@ -122,13 +141,13 @@
     font-size: 0.8rem;
     border: none;
     padding: 8px;
-    background: #573f05;
+    background: #42331b;;
     color: white;
     border-radius: 10px;
 }
 
 .home header .btn-cta:hover {
-    background: #b8860b;
+    background: orange;
     color: black;
     cursor: pointer;
 }
@@ -136,43 +155,133 @@
 .img-headline {
     width: 600px;
     height: 350px;
-    background-color: black;
+    /*background-color: black;*/
 }
 .img-headline img {
     width: 100%;
 }
 
 .about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
     height: 100vh;
     background: orange;
+    padding-top: 5rem;
+    gap: 3rem;
+}
+
+.about > .about-content, .about-img {
+    width: 40%;
+}
+
+.about h1 {
+    font-size: 1.6rem;
+}
+
+.about h2 {
+    font-size: 1.2rem;
+    padding: 2rem 0 0 0;
+}
+
+
+.about > p {
+    font-size: 0.95rem;
+    padding: 1rem 0 0 0;
+    text-align: justify;
+    /*width: 35rem;*/
+}
+
+.about img {
+    width: 100%;
 }
 
 .services {
     height: 100vh;
-    background: silver;
+    background: #f9ca74;
 }
 
-.portfolio {
-    height: 100vh;
-    background: darkgoldenrod;
+.services > h1, .case h1, .contact h1, .partners h1 {
+    padding-top: 2rem;
+    text-align: center;
 }
 
-.galery {
+.services-card {
+    display: flex;
+    gap: 10px;
+}
+.sv-card-itens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+    background: orange;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    gap: 12px;
+}
+
+.sv-card-itens {
+    
+}
+
+.sv-card-itens + h1 {
+    font-size: 1.6rem;
+}
+
+.sv-card-itens p {
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+.sv-card-itens button {
+    font-weight: 500;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 50px;
+    color: orange;
+    background: #000;
+    letter-spacing: 0.1rem;
+    box-shadow: 0px 1px 8px -3px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+
+.sv-card-itens button:hover {
+    color: #000;
+    background: orange;
+    transition: 1s;
+}
+
+.services-card .sv-card-itens img {
+    width: 3rem;
+}
+
+.case {
     height: 100vh;
-    background: #473810;
+    background: orange;
+}
+
+.partners {
+    height: 300px;
+    background: #ffffff;
 } 
 .contact {
     height: 100vh;
-    background: darkgoldenrod;
+    background: orange;
 }
 
 footer {
-    background: #ecbb3d;
+    background: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 }
 
 footer .ft-rodape-item {
