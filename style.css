@@ -306,13 +306,20 @@
 .partners-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
 }
 .partners-item {
     width: 200px;
-    height: 200px;
-    border: 0.05rem solid #000;
+    height: 250px;
+    border: 0.01rem solid #000;
 }
 
+.partners-item h1 {
+    font-size: 0.8rem;
+    color:#f9ca74;
+    border-radius: 0.3rem;
+}
 .contact {
     height: 100vh;
     background: orange;
