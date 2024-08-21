@@ -307,19 +307,34 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
+    margin-top: 3rem;
 }
 .partners-item {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
     width: 200px;
-    height: 250px;
-    border: 0.01rem solid #000;
+    height: 200px;
+    border: 0.01rem solid #f9ca74;
     text-align: center;
     border-radius: 0.3rem;
+    /*padding: 1rem;*/
 }
 
 .partners-item h2 {
+    /*display: block;*/
+    padding: 1rem 0 1rem 0;
+    font-size: 1.2rem;
+    color:#f9ca74;
+    
+}
+
+.partners-item p {
     font-size: 0.8rem;
     color:#f9ca74;
+    padding: 1rem;
+    text-align: justify;
     
 }
 .contact {
