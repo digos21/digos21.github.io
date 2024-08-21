@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*, h1, h2 {
+*,
+h1,
+h2 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -105,7 +107,7 @@
     font-weight: bold;
     font-size: 3.4rem;
     letter-spacing: 0.026rem;
-    color:orange;
+    color: orange;
     /*margin: 0 0 15px 0;*/
 }
 
@@ -115,25 +117,25 @@
     /*letter-spacing: 0.03rem;*/
     font-size: 2.08rem;
     font-weight: bold;
-    color:#42331b;
+    color: #42331b;
     margin: 0 0 15px 0;
-    
+
 }
 
 .home header span {
     font-size: 1.37rem;
-    color:#42331b;
+    color: #42331b;
 }
 
 .home header p {
     font-size: 0.8rem;
     text-align: justify;
     /*font-weight: bold;*/
-    color:#42331b;
+    color: #42331b;
     margin: 10px 0 30px 0;
     padding-right: 5px;
 
-    
+
 }
 
 
@@ -141,7 +143,8 @@
     font-size: 0.8rem;
     border: none;
     padding: 8px;
-    background: #42331b;;
+    background: #42331b;
+    ;
     color: white;
     border-radius: 10px;
 }
@@ -157,6 +160,7 @@
     height: 350px;
     /*background-color: black;*/
 }
+
 .img-headline img {
     width: 100%;
 }
@@ -173,7 +177,8 @@
     gap: 3rem;
 }
 
-.about > .about-content, .about-img {
+.about>.about-content,
+.about-img {
     width: 40%;
 }
 
@@ -187,7 +192,7 @@
 }
 
 
-.about > p {
+.about>p {
     font-size: 0.95rem;
     padding: 1rem 0 0 0;
     text-align: justify;
@@ -203,7 +208,10 @@
     background: #f9ca74;
 }
 
-.services > h1, .case h1, .contact h1, .partners h1 {
+.services>h1,
+.case h1,
+.contact h1,
+.partners h1 {
     padding-top: 2rem;
     text-align: center;
 }
@@ -212,6 +220,7 @@
     display: flex;
     gap: 10px;
 }
+
 .sv-card-itens {
     display: flex;
     flex-direction: column;
@@ -226,11 +235,9 @@
     gap: 12px;
 }
 
-.sv-card-itens {
-    
-}
+.sv-card-itens {}
 
-.sv-card-itens + h1 {
+.sv-card-itens+h1 {
     font-size: 1.6rem;
 }
 
@@ -247,7 +254,7 @@
     color: orange;
     background: #000;
     letter-spacing: 0.1rem;
-    box-shadow: 0px 1px 8px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 8px -3px rgba(0, 0, 0, 0.75);
     transition: 0.5s;
 }
 
@@ -269,17 +276,19 @@
 .case h1 {
     margin-bottom: 30px;
 }
+
 .case-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
     gap: 25px;
-    
+
 }
+
 .case-item {
     width: 600px;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
     padding: 0 0 0 0;
     margin: 0 0 0 0;
 }
@@ -287,9 +296,11 @@
 .case-item h2 {
     padding: 0 0 10px 0;
 }
+
 .case-item span {
     margin: 10px 0 0 0;
 }
+
 .case-item p {
     padding: 10px 0 0 0;
 }
@@ -297,11 +308,13 @@
 .img-item img {
     width: 300px;
     padding: 0 0 15px 0;
+    border-radius: 3rem;
 }
+
 .partners {
     height: 350px;
     background: #ffffff;
-} 
+}
 
 .partners-container {
     display: flex;
@@ -310,12 +323,14 @@
     gap: 2rem;
     margin-top: 3rem;
 }
+
 .partners-item {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 200px;
-    height: 200px;
+    height: 210px;
     border: 0.01rem solid #f9ca74;
     text-align: center;
     border-radius: 0.3rem;
@@ -324,22 +339,78 @@
 
 .partners-item h2 {
     /*display: block;*/
-    padding: 1rem 0 1rem 0;
+    padding: 0.4rem 0 0.4rem 0;
     font-size: 1.2rem;
-    color:#f9ca74;
-    
+    color: #f9ca74;
+
 }
 
 .partners-item p {
     font-size: 0.8rem;
-    color:#f9ca74;
-    padding: 1rem;
-    text-align: justify;
-    
+    color: #f9ca74;
+    padding: 0.4rem;
+
+
 }
+
+.partners-item img {
+    /*padding-top: 0.4rem;*/
+    width: 3.6rem;
+}
+
 .contact {
     height: 100vh;
     background: orange;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.contact h1 {
+    
+    
+}
+
+.form-contact {
+    width: 30rem;
+    margin: 30px auto;
+    padding: 1rem;
+
+}
+
+.contact .form-contact form {
+    gap: 0.2rem;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.contact .form-contact form input[type="submit"] {
+    border-radius: 1rem;
+    margin-top: 0.4rem;
+    padding: 1rem;
+    border: none;
+    background: white;
+    color: #42331b;
+
+} 
+
+.contact .form-contact form label {
+    font-weight: bold;
+}
+
+.contact .form-contact form input[type="submit"]:hover {
+    background: #42331b;
+    color: white;
+} 
+
+.contact .form-contact form input, select, textarea {
+    border: none;
+    padding: 0.2rem;
 }
 
 footer {
