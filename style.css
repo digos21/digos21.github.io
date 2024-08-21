@@ -313,12 +313,13 @@
     width: 200px;
     height: 250px;
     border: 0.01rem solid #000;
+    text-align: center;
 }
 
-.partners-item h1 {
+.partners-item h2 {
     font-size: 0.8rem;
     color:#f9ca74;
-    border-radius: 0.3rem;
+    border-radius: 5px;
 }
 .contact {
     height: 100vh;
