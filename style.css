@@ -420,12 +420,62 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 400px;
+    
 }
 
-footer .ft-rodape-item {
-    text-align: center;
-    width: 31vw;
-    height: 300px;
+.ft-rodape-item {
+
+    padding-top: 2rem;
+    width: 300px;
+    border: 1px solid;
+
+
 }
+
+.ft-rodape-item h1 {
+    font-weight: 200;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    color: #ffa500;
+}
+.ft-rodape-item span {
+
+}
+.ft-rodape-item img {
+   
+}
+.ft-rodape-item nav {
+    
+}
+.ft-rodape-item nav ul {
+    
+}
+.ft-rodape-item nav ul li {
+    list-style: none;
+    font-weight: 200;
+    
+}
+.ft-rodape-item nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.ft-rodape-item nav ul li a:hover {
+    background: #f9ca74;
+}
+
+.ft-icons {
+    display: flex;
+    background: #f9ca74;
+}
+
+.ft-svg-icons {
+
+
+}
+
+
 
 /* MÉDIA QUERIES - AJUSTAR PARA ABAIXO DE 650 E CELULAR MOBILE FIRST */
